@@ -3,13 +3,9 @@
 
 import web
 import app.controllers
-from app.config import debug
+from app.config import debug, routes
 
-urls = (
-	'/(.*)',	'app.controllers.hello.world',
-)
-
-App = web.application(urls, globals())
+App = web.application(routes.urls, globals())
 
 if __name__ == "__main__":
 	App.run()
