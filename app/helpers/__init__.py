@@ -1,7 +1,8 @@
 # Author: DirectorX
 
 class Helper(object):
-    from app.config import web
+    pass
+
 
 class HelperException(Exception):
     pass

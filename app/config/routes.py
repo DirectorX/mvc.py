@@ -1,5 +1,5 @@
 # Author: DirectorX
 
 urls = (
-	'/(.*)',	'app.controllers.hello.world',
+    '/(.*)', 'app.controllers.hello.world',
 )
