@@ -1,6 +1,6 @@
 # Author: DirectorX
 
-class Controller(object):
+class Controller:
     from app.config import web, render
 
 

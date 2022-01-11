@@ -1,6 +1,6 @@
 # Author: DirectorX
 
-class Helper(object):
+class Helper:
     from app.config import web
 
 

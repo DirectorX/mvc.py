@@ -1,6 +1,6 @@
 # Author: DirectorX
 
-class Model(object):
+class Model:
     from app.config import web
 
 
